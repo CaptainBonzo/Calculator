@@ -7,5 +7,11 @@ public class Calculator{
 		String operator = scan.next();
 		int zahl1= scan.nextInt();
 		int zahl2= scan.nextInt();
+		int result = 0;
+		
+		if(operator.equals("-")){
+			result = zahl1- zahl2;
+		}
+		System.out.println(zahl1 +" "+ operator +" "+ zahl2+" = "+ result);
 	}
 }
