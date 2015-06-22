@@ -9,9 +9,16 @@ public class Calculator{
 		int zahl2= scan.nextInt();
 		int result = 0;
 		
+
 		if(operator .equals("+")){
 			result = zahl1 + zahl2;
 		}
+		
+		
+		else if(operator.equals("-")){
+			result = zahl1- zahl2;
+		}
 		System.out.println(zahl1 +" "+ operator +" "+ zahl2 +" = "+ result);
+		
 	}
 }
